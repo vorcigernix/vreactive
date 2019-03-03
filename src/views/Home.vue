@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="content">
+    <img alt="Hackathon logo" src="../assets/logo.svg" />
+    <HelloWorld msg="Reactive|Hacks" />
   </div>
 </template>
 
