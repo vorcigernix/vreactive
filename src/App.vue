@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <NavRouter />
+      <NavRouter/>
       <!--       <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link> -->
+      <router-link to="/about">About</router-link>-->
     </div>
-    <router-view />
+    <router-view/>
     <a href="#" id="refresh-button" v-if="updateExists" @click="refreshApp">
       <svg style="width:24px;height:24px" viewBox="0 0 24 24" class="icon">
         <path
@@ -19,7 +19,7 @@
 <script>
 import NavRouter from "@/components/NavRouter.vue";
 export default {
-    components: {
+  components: {
     NavRouter
   },
   data() {
@@ -67,7 +67,7 @@ export default {
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 0 1.5em 1em 1.5em;
 }
 
 #nav a {
@@ -98,5 +98,8 @@ export default {
 
 .icon:hover {
   transform: rotate(180deg);
+}
+.content {
+  margin: 0 1.5em 2.5em 1.5em;
 }
 </style>

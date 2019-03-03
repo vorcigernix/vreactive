@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="content">
     <h3>About</h3>
     <p>
       Battle for the Net is a first iteration of hackathons created by
