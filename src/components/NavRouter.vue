@@ -1,7 +1,9 @@
 <template>
   <div id="router-nav">
     <div class="nav-panel-mobile">
-      <div class="hamburger-icon" @click="toggle()">&#9776; {{ currentRoute }}</div>
+      <div class="hamburger-icon" @click="toggle()">
+        &#9776; {{ currentRoute }}
+      </div>
       <div class="mobile-menu" v-if="active">
         <div
           class="nav-item"
@@ -9,13 +11,21 @@
           :key="route.path"
           @click="toggle()"
         >
-          <router-link class="custom-nav-item" :to="route.path">{{ route.name }}</router-link>
+          <router-link class="custom-nav-item" :to="route.path">{{
+            route.name
+          }}</router-link>
         </div>
       </div>
     </div>
     <div class="nav-panel">
-      <div class="nav-item" v-for="route in $router.options.routes" :key="route.path">
-        <router-link class="custom-nav-item" :to="route.path">{{ route.name }}</router-link>
+      <div
+        class="nav-item"
+        v-for="route in $router.options.routes"
+        :key="route.path"
+      >
+        <router-link class="custom-nav-item" :to="route.path">{{
+          route.name
+        }}</router-link>
       </div>
     </div>
   </div>

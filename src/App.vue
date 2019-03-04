@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <NavRouter/>
+      <NavRouter />
       <!--       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>-->
     </div>
-    <router-view/>
+    <router-view />
     <a href="#" id="refresh-button" v-if="updateExists" @click="refreshApp">
       <svg style="width:24px;height:24px" viewBox="0 0 24 24" class="icon">
         <path
@@ -83,7 +83,7 @@ export default {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  color:#fff;
+  color: #fff;
   background-color: #42b983;
   width: 25px;
   height: 25px;

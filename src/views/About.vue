@@ -12,7 +12,9 @@
     </p>
     <h3>Venue</h3>
     <p>
-      Hackathon will take place in acclaimed Socialbakers offices in Forum Karlin. With a lot of space, great connectivity and chill out areas, it is one of best places we can have in Prague. 
+      Hackathon will take place in acclaimed Socialbakers offices in Forum
+      Karlin. With a lot of space, great connectivity and chill out areas, it is
+      one of best places we can have in Prague.
     </p>
     <ul>
       <li>Two floors with capacity of 150 people</li>
@@ -20,5 +22,12 @@
       <li>Table Tennis, PS4, Foosbal</li>
       <li>Open terrace with grill</li>
     </ul>
+    <h3>Partnership</h3>
+    <p>
+      Hackathon is sponsored by Socialbakers a.s.
+    </p>
+    <p>
+      <a href="mailto:adam.sobotka@socialbakers.com">Become a partner</a>
+    </p>
   </div>
 </template>
