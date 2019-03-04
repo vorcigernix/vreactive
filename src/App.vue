@@ -83,7 +83,8 @@ export default {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #ffffff;
+  color:#fff;
+  background-color: #42b983;
   width: 25px;
   height: 25px;
   border-radius: 25px;

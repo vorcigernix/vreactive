@@ -10,13 +10,15 @@
       lot of fun too. This year, the event is created in collaboration with
       Socialbakers, one of most successful startups in Czech Republic.
     </p>
-    <h3>Participants</h3>
+    <h3>Venue</h3>
     <p>
-      You are very motivated and skilled developer, designer or a marketing
-      person. You will be working together in a multidisciplinary team
-      delivering the whole thing on the market. While our mentors work usually
-      in javascript and InVision, we don’t want to limit your tools to anything
-      specific. This is battle for a net, fight with anything you can use.
+      Hackathon will take place in acclaimed Socialbakers offices in Forum Karlin. With a lot of space, great connectivity and chill out areas, it is one of best places we can have in Prague. 
     </p>
+    <ul>
+      <li>Two floors with capacity of 150 people</li>
+      <li>Soundproof meeting rooms</li>
+      <li>Table Tennis, PS4, Foosbal</li>
+      <li>Open terrace with grill</li>
+    </ul>
   </div>
 </template>
