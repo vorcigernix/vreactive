@@ -85,5 +85,6 @@ a {
 }
 img {
   max-width: 80vh;
+  max-height: 10em;
 }
 </style>
