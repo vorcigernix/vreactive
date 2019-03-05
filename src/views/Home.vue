@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <img alt="Hackathon logo" src="../assets/logo.svg" />
+
     <div class="hello">
       <h1>Reactive|Hacks</h1>
       <p>
@@ -83,8 +83,5 @@ li {
 a {
   color: #42b983;
 }
-img {
-  max-width: 80vh;
-  max-height: 10em;
-}
+
 </style>
