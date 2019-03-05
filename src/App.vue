@@ -81,7 +81,7 @@ export default {
   color: #42b983;
 }
 
-#refresh-button {
+#refresh-button {                                                                                                                
   position: fixed;
   bottom: 20px;
   right: 20px;

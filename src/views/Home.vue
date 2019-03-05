@@ -83,4 +83,7 @@ li {
 a {
   color: #42b983;
 }
+img {
+  max-width: 80vh;
+}
 </style>
