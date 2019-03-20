@@ -58,40 +58,89 @@ export default {
 </script>
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 #nav {
-  padding: 1em 1.5em 1em 1.5em;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  height: 60vh;
+  background: radial-gradient(circle, #3f51b5 0%, #006064 100%);
+  padding: 40px;
+}
+
+#nav .nav-panel {
   position: sticky;
-  top: 0px;
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  top: 15px;
+}
+
+#router-nav {
+  height: 65vh;
 }
 
 #nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  height: 24px;
+  color: #ffaaaa;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  padding: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 0 0 24px;
+}
+
+#nav .nav-pagename {
+  height: 96px;
+  color: #ffaaaa;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 96px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 150px;
+}
+
+#nav .nav-date {
+  height: 40px;
+  color: #ffaaaa;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 24px;
+  letter-spacing: 0.5em;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #ffffff;
+  padding: 3px;
+  border-bottom: 8px solid #3f51b5;
 }
 
-#refresh-button {                                                                                                                
+#refresh-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background-color: #42b983;
+  background-color: #ffaaaa;
   width: 25px;
   height: 25px;
   border-radius: 25px;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
   padding: 10px;
+}
+
+#register {
+  margin: 5% auto 30px; 
+  height: 64px;
+  width: 240px;
+  border: 3px solid #ffaaaa;
+  font-size: 22px;	font-weight: 900;	line-height: 64px;
+  padding: 5px 20px 5px 20px;
+  color: #ffaaaa;
 }
 
 .icon {
@@ -104,8 +153,5 @@ export default {
 }
 .content {
   margin: 0 1.5em 2.5em 1.5em;
-}
-body {
-  margin: 0px;
 }
 </style>

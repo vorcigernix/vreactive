@@ -18,7 +18,6 @@
       </div>
     </div>
     <div class="nav-panel">
-            <img alt="Hackathon logo" src="../assets/logo.svg">
       <div class="nav-item" v-for="route in $router.options.routes" :key="route.path">
         <router-link class="custom-nav-item" :to="route.path">
           {{
@@ -26,7 +25,13 @@
           }}
         </router-link>
       </div>
+      
     </div>
+    <div v-show="currentRoute != 'home' " class="nav-pagename">{{ currentRoute }}</div>
+    <div v-show="currentRoute == 'home' " class="nav-pagename">Reactive|Hacks</div>
+
+    <div class="nav-date">24-26 May 2019</div>
+    <div id="register" >PREREGISTER</div>
   </div>
 </template>
 
@@ -68,24 +73,6 @@ export default {
   text-align: left;
   cursor: pointer;
   user-select: none;
-}
-.nav-item * {
-  text-decoration: none;
-  text-align: left;
-  margin: 15px 0 10px 0;
-}
-
-.nav-item a {
-  float: left;
-}
-
-.custom-nav-item {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: black;
-}
-.custom-nav-item:hover {
-  border-bottom: black solid 2px;
 }
 img {
   max-height: 3em;

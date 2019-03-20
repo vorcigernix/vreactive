@@ -2,10 +2,6 @@
   <div class="content">
 
     <div class="hello">
-      <h1>Reactive|Hacks</h1>
-      <p>
-        <a href="https://reg.com" target="_blank" rel="noopener">Preregister</a>
-      </p>
 
       <h3>Challenge</h3>
       <p>
