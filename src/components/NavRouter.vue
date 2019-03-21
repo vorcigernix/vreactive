@@ -1,7 +1,9 @@
 <template>
   <div id="router-nav">
     <div class="nav-panel-mobile">
-      <div class="hamburger-icon" @click="toggle()">&#9776; {{ currentRoute }}</div>
+      <div class="hamburger-icon" @click="toggle()">
+        &#9776; {{ currentRoute }}
+      </div>
       <div class="mobile-menu" v-if="active">
         <div
           class="nav-item"
@@ -10,28 +12,31 @@
           @click="toggle()"
         >
           <router-link class="custom-nav-item" :to="route.path">
-            {{
-            route.name
-            }}
+            {{ route.name }}
           </router-link>
         </div>
       </div>
     </div>
     <div class="nav-panel">
-      <div class="nav-item" v-for="route in $router.options.routes" :key="route.path">
+      <div
+        class="nav-item"
+        v-for="route in $router.options.routes"
+        :key="route.path"
+      >
         <router-link class="custom-nav-item" :to="route.path">
-          {{
-          route.name
-          }}
+          {{ route.name }}
         </router-link>
       </div>
-      
     </div>
-    <div v-show="currentRoute != 'home' " class="nav-pagename">{{ currentRoute }}</div>
-    <div v-show="currentRoute == 'home' " class="nav-pagename">Reactive|Hacks</div>
+    <div v-show="currentRoute != 'home'" class="nav-pagename">
+      {{ currentRoute }}
+    </div>
+    <div v-show="currentRoute == 'home'" class="nav-pagename">
+      Reactive|Hacks
+    </div>
 
     <div class="nav-date">24-26 May 2019</div>
-    <div id="register" >PREREGISTER</div>
+    <div id="register">PREREGISTER</div>
   </div>
 </template>
 
@@ -39,21 +44,21 @@
 export default {
   data: function() {
     return {
-      active: false
-    };
+      active: false,
+    }
   },
   computed: {
     currentRoute: function() {
-      return this.$route.name;
-    }
+      return this.$route.name
+    },
   },
   created: function() {},
   methods: {
     toggle: function() {
-      this.active = !this.active;
-    }
-  }
-};
+      this.active = !this.active
+    },
+  },
+}
 </script>
 
 <style>

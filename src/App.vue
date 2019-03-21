@@ -67,7 +67,7 @@ export default {
 #nav {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   height: 60vh;
-  background: radial-gradient(circle, #3f51b5 0%, #006064 100%);
+  background: linear-gradient(226.3deg, #070531 0%, #0D0953 28.83%, #0C065D 69.2%, #070531 100%);
   padding: 40px;
 }
 

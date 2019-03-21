@@ -5,14 +5,13 @@
   </div>
 </template>
 <script>
-import marked from "marked";
-import mentors from "!raw-loader!../../data/mentors.md";
+import marked from 'marked'
+import mentors from '!raw-loader!../../data/mentors.md'
 export default {
-    computed: {
-    compiledMarkdown: function () {
+  computed: {
+    compiledMarkdown: function() {
       return marked(mentors, { sanitize: true })
-    }
+    },
   },
-}; 
-
+}
 </script>

@@ -5,14 +5,13 @@
   </div>
 </template>
 <script>
-import marked from "marked";
-import faq from "!raw-loader!../../data/faq.md";
+import marked from 'marked'
+import faq from '!raw-loader!../../data/faq.md'
 export default {
-    computed: {
-    compiledMarkdown: function () {
+  computed: {
+    compiledMarkdown: function() {
       return marked(faq, { sanitize: true })
-    }
+    },
   },
-}; 
-
+}
 </script>

@@ -5,14 +5,13 @@
   </div>
 </template>
 <script>
-import marked from "marked";
-import agenda from "!raw-loader!../../data/agenda.md";
+import marked from 'marked'
+import agenda from '!raw-loader!../../data/agenda.md'
 export default {
-    computed: {
-    compiledMarkdown: function () {
+  computed: {
+    compiledMarkdown: function() {
       return marked(agenda, { sanitize: true })
-    }
+    },
   },
-}; 
-
+}
 </script>
